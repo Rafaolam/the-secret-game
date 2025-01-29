@@ -1,12 +1,12 @@
 let listOfNumbers = [];
-let maxTries = 5;
+let maxTries = 15  ;
 let secretNumber = randomNumberGenerator();
 let tryGot = 1;
 
 function showTextOnDisplay(tag, text){
     let field = document.querySelector(tag);
     field.innerHTML = text;
-    responsiveVoice.speak(text, 'Brazilian Portuguese Female', {rate: 0.8});
+    responsiveVoice.speak(text, 'Brazilian Portuguese Female', {rate: 1.2});
 }
 
 function startMessage(){
